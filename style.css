@@ -1,0 +1,26 @@
+body{
+  background: rgb(123,106,152);
+  background: radial-gradient(circle, rgba(123,106,152,1) 25%, rgba(96,96,96,1) 100%);
+}
+@keyframes yeah {
+  0% {
+    transform: translate(100px);
+  }
+  50% {
+    transform: translate(500px);
+  }
+  100% {
+    transform: translate(100px);
+  }
+}
+.logo{
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+}
+#logo{
+  width: 400px;
+}
+.intro{
+  animation: yeah 3s ease 0s infinite normal;
+}
